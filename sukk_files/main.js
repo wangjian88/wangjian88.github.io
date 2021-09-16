@@ -9242,6 +9242,7 @@ var useTheAliCloudChart = function (b, c) {
         this.isMirrorSide && (d = "thumb")), "normal" == d && (bookConfig.usePdfJs ? (b = function (b, c, d) { this.pageBackground.load.renderCnvas(b, c, d, this.pageIndex, this.pageWidth, this.pageHeight, this.initContents.bind(this)) }.bind(this), this.initPageBackground(c, "normal", b)) : this.initPageBackground(c, "normal", this.initContents.bind(this))), "thumb" == d && (this.type = "thumb", this.initPageBackground(c, "thumb", this.onPreviewImageLoaded.bind(this))))
     }, initPageBackground: function (b, c, d) {
       console.log("initPageBackground:" + this.pageIndex);
+      return;
       this.pageBackground && this.pageBackground.destroy(); this.pageBackground = new PageBackground(this.pageIndex, c, d, this.pageWidth, this.pageHeight, this.isMirrorSide, b); this.imageURL = this.pageBackground.imageURL
     }, initContents: function (b, c, d) { imageLoaded[this.pageIndex] = !0; this.onOriginalImageLoaded(b, c, d) }, onOriginalImageLoaded: function (b, c, d) {
       console.log("onOriginalImageLoaded:" + this.pageIndex); if (b) {
