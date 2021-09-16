@@ -21,15 +21,14 @@ var dynamicLoading = {
     type: 't2021090101',
     time: '1630465198'
 }
-dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/html5_templates/js/jquery-1.9.1.min.js', function () {
-    dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/html5_templates/t2021090101/Mobile/javascript/main.js', function () {
-        dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/statistic.js?1630465198')
-        // dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/writeLog.js?1630465198')
-        // dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/plugin.js?1630465198')
-    })
-    // dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/weixin-share2.js?1630465198')
-    // dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/visitinfo.js?1630465198')
+
+dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/html5_templates/t2021090101/Mobile/javascript/main.js', function () {
+    dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/statistic.js?1630465198')    
+    // dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/writeLog.js?1630465198')
+    // dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/plugin.js?1630465198')
 })
+// dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/weixin-share2.js?1630465198')
+// dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/visitinfo.js?1630465198')
 dynamicLoading.css('https://book.yunzhan365.com/resourceFiles/html5_templates/t2021090101/Mobile/style/style.css')
 dynamicLoading.css('https://book.yunzhan365.com/resourceFiles/html5_templates/t2021090101/Mobile/style/player.css')
 dynamicLoading.css('https://book.yunzhan365.com/resourceFiles/html5_templates/t2021090101/Mobile/style/phoneTemplate.css')
