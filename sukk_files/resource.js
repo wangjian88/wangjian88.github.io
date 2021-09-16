@@ -22,11 +22,11 @@ var dynamicLoading = {
     time: '1630465198'
 }
 
-dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/html5_templates/t2021090101/Mobile/javascript/main.js', function () {
-    dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/statistic.js?1630465198')    
+// dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/html5_templates/t2021090101/Mobile/javascript/main.js', function () {
+    // dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/statistic.js?1630465198')    
     // dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/writeLog.js?1630465198')
     // dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/plugin.js?1630465198')
-})
+// })
 // dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/weixin-share2.js?1630465198')
 // dynamicLoading.js('https://book.yunzhan365.com/resourceFiles/js/visitinfo.js?1630465198')
 dynamicLoading.css('https://book.yunzhan365.com/resourceFiles/html5_templates/t2021090101/Mobile/style/style.css')
